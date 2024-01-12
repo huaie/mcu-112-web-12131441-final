@@ -1,8 +1,8 @@
 <nav>
-    <span>todoMVC</span>
+    <a class="navbar-brand">conduit</a>
     <ul>
-      <li><a routerlink="/" class="nav-link" href="/">Home</a></li>
-      <li><a routerlink="/login" routerlinkactive="active" class="nav-link" href="/login">sign in</a></li>
-      <li><a routerlink="/register" routerlinkactive="active" class="nav-link" href="/register">sign up</a></li>
+      <li><a [routerLink]="['home']" routerLinkActive="active">Home</a></li>
+      <li><a [routerLink]="['sign-in']" routerLinkActive="active">sign in</a></li>
+      <li><a [routerLink]="['sign-up']" routerLinkActive="active">sign up</a></li>
     </ul>
   </nav>

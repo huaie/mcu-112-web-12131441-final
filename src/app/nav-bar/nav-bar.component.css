@@ -1,34 +1,38 @@
 :host{
     display: block;
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.navbar-brand{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    color: #5cb85c;
 }
 
 ul{
     display: flex;
-    list-style-type: none;
+    list-style: none;
+    gap: 15px;
 }
 
-li
-li > a {
+ul li a  {
     color: rgba(0, 0, 0, 0.3);
-    display: block;
-    padding-top: 0.425rem;
-    padding-bottom: 0.425rem;
-}
-
-li > a {
-    color: rgba(0, 0, 0, 0.3);
-    display: block;
-    padding-top: 0.425rem;
-    padding-bottom: 0.425rem;
-}
-
-li > a {
-    color: rgba(0, 0, 0, 0.3);
-    display: block;
-    padding-top: 0.425rem;
-    padding-bottom: 0.425rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 li > a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+ul li a.active{
     color: rgba(0, 0, 0, 0.7);
 }
