@@ -1,0 +1,16 @@
+:host {
+    display: block;
+    background-color: #f3f3f3;
+    padding: 1rem 15px;
+}
+
+a  {
+   color: #5cb85c;
+}
+
+span{
+    font-size: 0.8rem;
+    margin-right: 10px;
+    font-weight: 300;
+    color: #bbb;
+}
